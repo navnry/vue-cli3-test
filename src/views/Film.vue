@@ -54,7 +54,7 @@
               readonly
               size=".24rem"
             />
-            <p>{{discuss.created_at}}</p>
+            <!--<p>{{discuss.created_at}}</p>-->
           </div>
         </div>
         <div class="film-discuss-content"><p>{{discuss.content}}</p></div>

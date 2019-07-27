@@ -21,6 +21,7 @@
 </template>
 
 <script>
+  import getFilmList from '../api/getFilmList'
 
   export default {
     name: 'home',
@@ -30,7 +31,9 @@
       }
     },
     mounted () {
-
+      getFilmList().then(res=>{
+        console.log(res)
+      })
     },
     methods: {
       getFilmData () {
